@@ -1,9 +1,17 @@
 
 <html>
 <head>
+
+  <script src="/Website/lib/jquery/jquery.min.js"></script>
 <script>
 
-  document.href = '/Website/main.html';
+$(document).ready(function() {
+
+    alert('Redirecting.');
+    document.href = '/Website/main.html';
+    alert('done.');
+
+});
 
   </script>
 </head>
