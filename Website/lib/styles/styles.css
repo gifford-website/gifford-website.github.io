@@ -168,3 +168,9 @@ body {
 	right: 50px;
 	top: -90px;
 }
+
+input {
+
+  border-radius: 30px;
+
+}
